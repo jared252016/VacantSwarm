@@ -1,5 +1,8 @@
 # VacantSwarm
 
+VacantSwarm is a consumer router application that runs on the LAN with other devices. When a virus is detected on the network via IPS it triggers to try to contain it or stall until you can shut off the devices. Alerting you immediatley with a small alarm, email, or SMS. Each container has a few ports open that route back to a honeypot for basic services. The services in the honeypot are lightweight and only accept handshakes, maximizing the number of services it can monitor for in favor of being able to simulate exactly what it wants to do within one. For example, SSH -> Server to access a file on partition 1.
+
+
 Thought Board
 
 OpenZFS on ARM + Deduplication w/ Memory through Docker for miminal footprint with a lot of small (16MB containers)
