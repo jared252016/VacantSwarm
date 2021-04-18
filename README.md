@@ -11,6 +11,9 @@ Unsure if ARM will work with it... Docker has the functionality on ZFS and a few
 
 IPS
 
+Early Warning System 
+
 Countermeasures
 
-Virus detected... launch a swarm of IP addresses in vacant slots. Having ports open that forward back to a honeypot. 
+
+Virus detected... launch a swarm of IP addresses in vacant slots. Having ports open that forward back to a honeypot. Honeypot does basic statistics on ports it goes after. Optionally: Data is sent back to a cloud service to be analyzed anonamously. 
